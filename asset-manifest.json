@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/coronatrackapp/static/css/main.7107a1f5.chunk.css",
+    "main.js": "/coronatrackapp/static/js/main.0375d8ed.chunk.js",
+    "main.js.map": "/coronatrackapp/static/js/main.0375d8ed.chunk.js.map",
+    "runtime-main.js": "/coronatrackapp/static/js/runtime-main.5c85436f.js",
+    "runtime-main.js.map": "/coronatrackapp/static/js/runtime-main.5c85436f.js.map",
+    "static/js/2.fcb21244.chunk.js": "/coronatrackapp/static/js/2.fcb21244.chunk.js",
+    "static/js/2.fcb21244.chunk.js.map": "/coronatrackapp/static/js/2.fcb21244.chunk.js.map",
+    "index.html": "/coronatrackapp/index.html",
+    "precache-manifest.4303aaf602ebf5458b510d84c9542519.js": "/coronatrackapp/precache-manifest.4303aaf602ebf5458b510d84c9542519.js",
+    "service-worker.js": "/coronatrackapp/service-worker.js",
+    "static/css/main.7107a1f5.chunk.css.map": "/coronatrackapp/static/css/main.7107a1f5.chunk.css.map",
+    "static/js/2.fcb21244.chunk.js.LICENSE.txt": "/coronatrackapp/static/js/2.fcb21244.chunk.js.LICENSE.txt",
+    "static/media/loading-arrow.gif": "/coronatrackapp/static/media/loading-arrow.e9ea7394.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c85436f.js",
+    "static/js/2.fcb21244.chunk.js",
+    "static/css/main.7107a1f5.chunk.css",
+    "static/js/main.0375d8ed.chunk.js"
+  ]
+}
