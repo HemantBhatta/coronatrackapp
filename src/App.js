@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+// import {myContext} from './Context'
+import ContextPro from './Context'
+import Home from './components/Home'
+import Detail from './components/Detail'
+import AllCountry from './components/AllCountry'
+import {BrowserRouter as Router,Link,Switch,Route} from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component{
+
+render(){
+  return(
+    <ContextPro>
+
+      <Router>
+
+          <Route exact path="/" component={AllCountry}/>
+          <Route exact path="/detail" component={Home}/>
+
+          <Route exact path="/detail/:code" component={Detail}/>
+
+         
+         
+    
+      </Router>
+      
+    </ContextPro>
+  )
 }
-
+}
 export default App;
